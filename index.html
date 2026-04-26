@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Hi! I'm Kaveesha Geeth, I'm a Creator & Developer</h1>
+        <p>Student at University of Moratuwa with a passion for information technology and AI. Currently following Information Technlogy And Management Degree.</p>
+        <div class="skills">
+            <h3>My Skills</h3>
+            <ul>
+                <li>Web Development (HTML/CSS/JS/React)</li>
+                <li>Video Editing & Automation</li>
+                <li>Robotics (ESP32/Raspberry Pi)</li>
+                <li>Freelancing(logo design)</li>
+                <li>3D object Modelling</li>
+                <li>Critical Thinking</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>My Latest Article</h2>
+        <p>Check out my article on medium about multimedia animation which explains you about the value of animation process in multimedia field.</p>
+        <a href="https://medium.com/@geeth51015/beyond-the-frame-a-comprehensive-guide-to-animation-in-multimedia-2a9cac60d3d6" target="_blank" class="button">Read on Medium</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me For More Information</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
